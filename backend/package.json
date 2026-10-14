@@ -1,0 +1,21 @@
+{
+  "name": "threetier-backend",
+  "version": "1.0.0",
+  "description": "Express backend with PostgreSQL, Redis, and MailHog",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
+  }
+}
